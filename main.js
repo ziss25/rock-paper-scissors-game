@@ -64,15 +64,15 @@ function choiceComp() {
   let valueComp = arr[random];
   let pngComp;
   if (valueComp == 'rock') {
-    pngComp = '/images/icon-rock.svg';
+    pngComp = 'images/icon-rock.svg';
   } else if (valueComp == 'paper') {
-    pngComp = '/images/icon-paper.svg';
+    pngComp = 'images/icon-paper.svg';
   } else if (valueComp == 'scissors') {
-    pngComp = '/images/icon-scissors.svg';
+    pngComp = 'images/icon-scissors.svg';
   } else if (valueComp == 'lizard') {
-    pngComp = '/images/icon-lizard.svg';
+    pngComp = 'images/icon-lizard.svg';
   } else if (valueComp == 'spock') {
-    pngComp = '/images/icon-spock.svg';
+    pngComp = 'images/icon-spock.svg';
   }
   return { value: valueComp, png: pngComp };
 }
