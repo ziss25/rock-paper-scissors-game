@@ -274,4 +274,3 @@ function calculateScore(hasil) {
 
 start();
 
-// end ................
